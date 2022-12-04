@@ -4,7 +4,7 @@ stages {
         stage('git clone') {
             steps {
                 git branch: 'main',
-                    url: 'https://github.com/lianglun0125/pipelineTest.git'
+                    url: 'https://github.com/lianglun0125/pipelineTest_win.git'
             }  
             post {
                 failure {
