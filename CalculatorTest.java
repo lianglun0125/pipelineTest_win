@@ -20,7 +20,7 @@ public class CalculatorTest {
   }
   public void testSub() {
     Calculator calculator = new Calculator();
-    int sum = calculator.subtract(12345,15);
+    int sum = calculator.division(12345,15);
     assertEquals(823, sum);
   }
 }
