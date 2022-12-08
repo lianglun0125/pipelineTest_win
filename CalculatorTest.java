@@ -17,7 +17,7 @@ public class CalculatorTest {
   @Test
   public void testMult() {
     Calculator calculator = new Calculator();
-    int sum = calculator.multiplicat(456,99);
+    int sum = calculator.multiplication(456,99);
     assertEquals(45144, sum);
   }
   @Test
