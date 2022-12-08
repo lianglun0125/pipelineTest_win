@@ -18,7 +18,7 @@ public class CalculatorTest {
     int sum = calculator.multiplicat(456,99);
     assertEquals(45144, sum);
   }
-  public void testSub() {
+  public void testDiv() {
     Calculator calculator = new Calculator();
     int sum = calculator.division(12345,15);
     assertEquals(823, sum);
