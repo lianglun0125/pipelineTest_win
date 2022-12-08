@@ -21,9 +21,9 @@ public class CalculatorTest {
     assertEquals(45144, sum);
   }
   @Test
-  public void testSub() {
+  public void testDiv() {
     Calculator calculator = new Calculator();
-    int sum = calculator.subtract(12345,15);
+    int sum = calculator.division(12345,15);
     assertEquals(823, sum);
   }
 }
